@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="index3.js"></script>
+    <script src="index3.js" defer></script>
     <link href="styles3.css" rel="stylesheet" type="text/css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -17,33 +17,40 @@
   </head>
   <body>
     <div class="bg"></div>
-      <div class="bg bg2"></div>
-      <div class="bg bg3"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
     <div class="topnav">
       <a href="index.html">About</a>
       <a href="index2.html">Skills</a>
       <a class="on" href="index3.html">Projects</a>
-      <a href="#about">Contact</a>
+      <a href="index4.html">Contact</a>
     </div>
     <div class="tab">
-        <button class="tablinks" onclick="chooseLanguage(event, 'Python')">Python</button>
-        <button class="tablinks" onclick="chooseLanguage(event, 'Django')">Django</button>
-        <button class="tablinks" onclick="chooseLanguage(event, 'Java')">Java</button>
+      <button class="tablinks" onclick="chooseLanguage(event, 'Html')">
+        Html
+      </button>
+      <button class="tablinks" onclick="chooseLanguage(event, 'Django')">
+        Django
+      </button>
+      <button class="tablinks" onclick="chooseLanguage(event, 'Java')">
+        Java
+      </button>
     </div>
-      
-      <div id="Python" class="tabcontent">
-        <h3>Pyhton Projects</h3>
-        <p>Python was the first language I learned</p>
-      </div>
-      
-      <div id="Django" class="tabcontent">
-        <h3>Django</h3>
-        <p>Django was the second language I learned</p>
-      </div>
-      
-      <div id="Java" class="tabcontent">
-        <h3>Java</h3>
-        <p>Java was the third language I learned</p>
-      </div>
+
+    <div id="Html" class="tabcontent">
+      <h3>Html Projects</h3>
+      <p>A html project I made in Jan 2023</p>
+      <a href="https://jdumbs.github.io/Dreadnoughts_Ship_Website/" target="_blank"><img src="images/Screenshot (47).png" alt="html website"></a>
+    </div>
+
+    <div id="Django" class="tabcontent">
+      <h3>Django</h3>
+      <p>Django was the second language I learned</p>
+    </div>
+
+    <div id="Java" class="tabcontent">
+      <h3>Java</h3>
+      <p>Java was the third language I learned</p>
+    </div>
   </body>
 </html>

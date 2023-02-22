@@ -41,7 +41,7 @@
 .intro_header img {
   height: 20%;
   width: 20%;
-  margin-left: 35rem;
+  margin-left: 33.5rem;
 }
 .intro_header h1{
   text-align: center;
@@ -50,10 +50,9 @@
 .intro_header p{
   text-align: center;
   top: 35rem;
-  left: 20rem;
   font-size: 150%;
   width: 50rem;
-  margin-left: 20rem;
+  padding-left: 17rem;
 }
 .intro_header{
   background: #04AA6D;
@@ -71,17 +70,17 @@
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1vw 1.17vw;
   text-decoration: none;
-  font-size: 17px;
-  width: 300px;
+  font-size: 2vw;
+  width: 22.36vw;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
-  width: 340px;
+  width: 22.36vw;
 }
 
 /* Add a color to the active/current link */
