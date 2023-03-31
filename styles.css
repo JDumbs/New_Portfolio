@@ -1,60 +1,59 @@
-*{
+* {
   font-family: "Cairo", sans-serif;
 }
 .bg {
-  animation:slide 3s ease-in-out infinite alternate;
+  animation: slide 3s ease-in-out infinite alternate;
   background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
-  bottom:0;
-  left:-50%;
-  opacity:.5;
-  position:fixed;
-  right:-50%;
-  top:0;
-  z-index:-1;
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
 }
 
 .bg2 {
-  animation-direction:alternate-reverse;
-  animation-duration:4s;
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
 }
 
 .bg3 {
-  animation-duration:5s;
+  animation-duration: 5s;
 }
 
 @keyframes slide {
   0% {
-    transform:translateX(-25%);
+    transform: translateX(-25%);
   }
   100% {
-    transform:translateX(25%);
+    transform: translateX(25%);
   }
 }
-.intro_header h3{
+.intro_header h3 {
   text-align: center;
   bottom: 24rem;
   left: 37.4rem;
   position: absolute;
-
 }
 
 .intro_header img {
   width: 15%;
   margin-left: 35.5rem;
 }
-.intro_header h1{
+.intro_header h1 {
   text-align: center;
   font-size: 350%;
 }
-.intro_header p{
+.intro_header p {
   text-align: center;
   top: 35rem;
   font-size: 150%;
   width: 50rem;
   padding-left: 17rem;
 }
-.intro_header{
-  background: #04AA6D;
+.intro_header {
+  background: #04aa6d;
   height: 40vw;
 }
 
@@ -85,6 +84,6 @@
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
 }
